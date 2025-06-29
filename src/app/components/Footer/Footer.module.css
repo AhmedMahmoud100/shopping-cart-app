@@ -1,0 +1,4 @@
+.footer {
+ text-align: center;
+ padding: var(--ant-padding) var(--ant-padding-lg);
+}

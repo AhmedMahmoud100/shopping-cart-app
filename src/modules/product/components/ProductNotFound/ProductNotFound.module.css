@@ -1,0 +1,16 @@
+.productNotFoundContainer {
+  padding: var(--ant-padding-lg);
+  text-align: center;
+}
+
+.productNotFoundTitle {
+  margin-bottom: var(--ant-margin-lg);
+  color: var(--ant-color-text);
+}
+
+.backButton {
+  margin-top: var(--ant-margin-lg);
+  height: var(--ant-control-height);
+  font-size: var(--ant-font-size);
+  border-radius: var(--ant-border-radius);
+} 

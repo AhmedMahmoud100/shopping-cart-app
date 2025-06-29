@@ -1,0 +1,30 @@
+.productImage {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: var(--ant-border-radius);
+  margin-bottom: var(--ant-margin-sm);
+}
+
+.productTitle {
+  margin: 0;
+}
+
+.productPrice {
+  font-size: var(--ant-font-size-lg);
+}
+
+.quantityInput {
+  width: 100%;
+  max-width: 200px;
+}
+
+.actionSpace {
+  width: 100%;
+  justify-content: space-between;
+  margin-top: var(--ant-margin-sm);
+}
+
+.totalPrice {
+  font-size: var(--ant-font-size-lg);
+} 

@@ -1,0 +1,12 @@
+.divider {
+  margin: var(--ant-margin) 0;
+}
+
+.totalLabel {
+  font-size: var(--ant-font-size-lg);
+}
+
+.totalAmount {
+  font-size: var(--ant-font-size-lg);
+  color: var(--ant-color-primary);
+} 

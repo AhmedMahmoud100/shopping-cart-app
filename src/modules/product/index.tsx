@@ -1,0 +1,3 @@
+// Export pages as routes
+export { default as ProductList } from './pages/ProductList';
+export { default as ProductDetails } from './pages/ProductDetails';

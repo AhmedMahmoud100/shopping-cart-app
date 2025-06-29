@@ -1,0 +1,8 @@
+.loaderContainer {
+  margin: var(--ant-margin-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ant-color-bg-layout);
+  border-radius: var(--ant-border-radius-lg);
+} 

@@ -1,0 +1,8 @@
+.emptyCartContainer {
+  padding: var(--ant-padding-lg) 0;
+  text-align: center;
+}
+
+.emptyCartIcon {
+  font-size: 64px;
+} 
