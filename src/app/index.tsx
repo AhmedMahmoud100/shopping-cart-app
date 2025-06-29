@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import { useTheme } from '@/theme';
 
 import './app.css'
+import styles from './app.module.css';
 
 const { Content } = Layout;
 
@@ -18,7 +19,7 @@ const App = () => {
   
   return (
     <Router>
-      <Layout style={{ minHeight: '100vh' }}>
+      <Layout className={styles.appLayout}>
         <Header />
         <Content style={{ padding: `0 ${token.paddingLG}`, margin: token.marginLG }}>
           <AppRoutes />

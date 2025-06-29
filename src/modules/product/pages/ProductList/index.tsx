@@ -36,7 +36,7 @@ const ProductList: React.FC = () => {
         Our Products ({TOTAL_PRODUCTS.toLocaleString()} items)
       </Title>
       
-      <div style={{ height: 'calc(100vh - 190px)', width: '100%' }}>
+      <div style={{ height: 'calc(100vh - 200px)', width: '100%' }}>
         <InfiniteLoader
           isItemLoaded={isRowLoaded}
           itemCount={rowCount}
@@ -48,7 +48,7 @@ const ProductList: React.FC = () => {
               ref={ref}
               columnCount={columnCount}
               columnWidth={columnWidth}
-              height={window.innerHeight - 190}
+              height={window.innerHeight - 200}
               rowCount={rowCount}
               rowHeight={ROW_HEIGHT}
               width={gridWidth}
